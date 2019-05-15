@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon May 13 17:34:33 IST 2019
+org.eclipse.jst.jee.server\:/binary\:/Users/vbajpai/Documents/mvcprojs/LearnMVC2/WebContent/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar=WEB-INF/lib/spring-web-5.0.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/vbajpai/Documents/mvcprojs/LearnMVC2/WebContent/WEB-INF/lib/spring-web-5.0.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.8.RELEASE-sources.jar

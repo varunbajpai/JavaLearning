@@ -1,0 +1,38 @@
+package com.luv2code.springdemo.mvc;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@Controller
+public class HelloWorld {
+	
+	@RequestMapping("/")
+	public String showPage() {
+		return "login-form/index";
+	}
+	
+	
+	@RequestMapping("/showForm")
+	public String showForm() {
+		return "hello-world-form";
+	}
+	
+
+	
+	@RequestMapping("/processForm")
+	public String processForm(HttpServletRequest request, Model model) {	
+		String name = request.getParameter("studentName");
+		String password = request.getParameter("passWord");
+		
+		model.addAttribute("userName",name);
+		model.addAttribute("passWord",password);
+		
+		System.out.println(name);
+		System.out.println(password);
+		return "processForm";
+	}
+}
