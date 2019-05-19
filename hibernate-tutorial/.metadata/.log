@@ -1,0 +1,13 @@
+!SESSION 2019-05-18 13:07:27.801 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/vbajpai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/vbajpai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-18 13:07:41.483
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-18 13:07:43.850
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
